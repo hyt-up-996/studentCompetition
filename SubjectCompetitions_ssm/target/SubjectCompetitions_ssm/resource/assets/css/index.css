@@ -1,0 +1,52 @@
+.banner li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.banner {
+    position: relative;
+    height: 480px;
+}
+
+.bannerbox {
+    position: relative;
+}
+
+#right,
+#left {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    /* 轮播图高度的一半减去箭头图标高度的一半 */
+    top: 215px;
+}
+
+#right {
+    background: url('../images/right.png');
+    right: 6%;
+}
+
+#left {
+    background: url('../images/left.png');
+    left: 6%;
+}
+
+#btn {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+}
+
+#btn li {
+    width: 24px;
+    height: 12px;
+    background: url('../images/banner_btn01.png') no-repeat;
+    float: left;
+    margin: 0 5px;
+}
+
+#btn li.on {
+    background: url('../images/banner_btn02.png') no-repeat;
+}

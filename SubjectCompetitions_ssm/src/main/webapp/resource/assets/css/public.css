@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+li {
+    list-style: none;
+}
+
+a,
+li,
+div,
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "microsoft yahei";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+}
+
+
+/* 网站顶部样式开始 */
+
+.headerbox {
+    background: #fdfdfd;
+    height: 104px;
+}
+
+.header {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.header .logo {
+    margin-top: 25px;
+}
+.header .logo img{
+	width:90px;
+	height:70px;
+}
+.fll {
+    float: left;
+}
+
+.header .text {
+    font-size: 16px;
+    color: #333333;
+    float: left;
+    /* 上，右，下，左 */
+    margin: 5px 0 0 21px;
+    border-left: 1px #999999 solid;
+    padding-left: 21px;
+}
+
+.flr {
+    float: right;
+}
+
+.header .text p {
+    line-height: 40px;
+}
+.dl{
+	font-size: 16px;
+	color: #333333;
+	float:right;
+	margin-top:26px;
+	
+}
+.dl a:hover{
+	color:lightcoral;
+}
+/* 网站顶部样式结束 */
+
+
+/* 导航条样式开始 */
+
+.navbox {
+    height: 50px;
+    background-color: #205aa7;
+}
+
+.nav {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 16px;
+    position: relative;
+}
+
+.nav .nav_l {
+    float: left;
+    color: #d9e9ff;
+    width: 259px;
+    height: 50px;
+    line-height: 50px;
+    background: url('../images/xia.png') no-repeat 220px center;
+    background-color: #063c84;
+    text-align: center;
+}
+
+.nav .nav_r a {
+    color: #ffffff;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 35px;
+}
+
+.nav .nav_r a:hover {
+    background-color: #063c84;
+}
+
+
+/* 导航条样式结束 */
+
+
+/* 下拉菜单开始 */
+
+.nav .list {
+    position: absolute;
+    width: 600px;
+    top: 50px;
+    /* 隐藏下拉菜单 */
+    display: none;
+    z-index: 1;
+}
+
+.nav .l_list li {
+    width: 229px;
+    height: 55px;
+    line-height: 55px;
+    color: #ffffff;
+    font-size: 14px;
+    background: url('../images/you.png') no-repeat 230px center;
+    background-color: #507bb6;
+    padding-left: 30px;
+    border-bottom: 1px solid #cccccc;
+    cursor: pointer;
+}
+
+.nav .l_list li i {
+    margin-right: 15px;
+}
+
+
+/* 下拉菜单的结束 */
+
+
+/* 横向菜单开始 */
+
+.nav .r_list {
+    position: absolute;
+    top: 0;
+    left: 259px;
+    background: #199ed8;
+    width: 210px;
+    height: 280px;
+    font-size: 12px;
+    padding: 0 20px 0 30px;
+    display: none;
+}
+
+.r_list a {
+    display: block;
+}
+
+.nav .l_list li:hover .r_list {
+    display: block;
+}
+
+
+/* 横向菜单结束 */
